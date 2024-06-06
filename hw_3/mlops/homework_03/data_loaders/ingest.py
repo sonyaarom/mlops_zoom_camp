@@ -5,16 +5,16 @@ if 'test' not in globals():
 
 import pandas as pd
 @data_loader
-# read_parquet.py
+
 
 def load_data(*args, **kwargs):
-    # Path to your Parquet file
+    # define the path to the Parquet file
     parquet_file_path = '/home/src/mlops/homework_03/data/yellow_tripdata_2023-03.parquet'
 
-    # Read the Parquet file
+   # read the file
     df = pd.read_parquet(parquet_file_path)
 
-    # Output the DataFrame for the next blocks in the pipeline
+    # return dataframe
     return df
 
 
