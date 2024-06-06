@@ -51,3 +51,5 @@ secrets/
 terraform.tfstate
 terraform.tfstate.backup
 titanic_clean.csv
+.env.dev
+mlops_zoomcamp/hw_3/.env.dev
